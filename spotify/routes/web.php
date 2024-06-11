@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\File;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +15,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+
+Route::get('images/{filename}', function ($filename) {
+    $path = resource_path('img/' . $filename);
+    
+    if (!File::exists($path)) {
+        abort(404);
+    }
+
+    $file = File::get($path);
+    $type = File::mimeType($path);
+    $response = response($file, 200)->header('Content-Type', $type);
+
+    return $response;
+})->where('filename', '.*');
