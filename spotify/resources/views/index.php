@@ -49,18 +49,18 @@
         <div class="card w-25 h-100">
             <div class="card-body d-flex align-items-center">
                 <i class="fas fa-window-maximize fa-2x mr-2"></i>
-                <h5 class="card-title fa-lg mr-5">Tu biblioteca...</h5>
-                <i class="fas fa-plus fa-lg mr-3"></i>
+                <h5 class="card-title mr-5">Tu biblioteca...</h5>
+                <i class="fas fa-plus fa-lg mr-5"></i>
                 <i class="fas fa-arrow-right"></i>
             </div>
 
             <div class="card-body d-flex align-items-center">
-                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart fa-lg mr-2 "></i>
                 <h6 class="card-title">Tus me gustas</h6>
             </div>
                
-            <div class="card-body d-flex align-items-center">
-                <i class="fas fa-music"></i>
+            <div class="card-body d-flex fa-lg mr-2align-items-center">
+                <i class="fas fa-music fa-lg mr-2"></i>
                 <h6 class="card-title">New playlist</h6>
             </div>
         
