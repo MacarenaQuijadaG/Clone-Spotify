@@ -77,6 +77,36 @@
             <div class="card w-100" style="height: 500px;;">
                 <div class="card-body">
                     <!-- Contenido de la tarjeta -->
+                    <table style="width: 100%;">
+                        <tr>
+                            <td style="text-align: left;">
+                                <button class="boton-circular"><</button>
+                                <button class="boton-circular">></button>
+                            </td>
+                            <td style="text-align: right;">
+                                <button class="boton-circular explorar-premium">Explorar Premium</button>
+                                <button class="boton-circular">Instalar Aplicación</button>
+                                <i class="fas fa-bell"></i>
+                                <button class="boton-circular">U</button>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <!-- Inicia la card -->
+                    <div style="display: flex; padding: 10px; align-items: center; gap: 10px;">
+                        <img src="ruta-de-tu-imagen.jpg" alt="Img" style="width: 20px; height: 20px;">
+                        <div>
+                            <p style="margin: 0;">mix diario 1</p>
+                        </div>
+                    </div>
+<!-- segunda card -->
+                    <div style="display: flex; padding: 10px; align-items: center; gap: 10px;">
+                        <img src="ruta-de-tu-imagen.jpg" alt="Img" style="width: 20px; height: 20px;">
+                        <div>
+                            <p style="margin: 0;">mix diario 4</p>
+                        </div>
+                    </div>    
+
                 </div>
             </div>
         </div>
